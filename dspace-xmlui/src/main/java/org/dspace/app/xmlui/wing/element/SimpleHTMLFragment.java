@@ -100,6 +100,7 @@ public class SimpleHTMLFragment extends AbstractWingElement {
 
 			ByteArrayInputStream inputStream = new ByteArrayInputStream(xml
 					.getBytes("UTF-8"));
+			// I should have fixed this! Sincerely, Peter
 
 			SAXBuilder builder = new SAXBuilder();
 			Document document = builder.build(inputStream);
